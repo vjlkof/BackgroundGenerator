@@ -44,7 +44,7 @@ function setDefaultGradient(){
 	css.textContent = body.style.background + ";";
 }
 
-button.addEventListener("click", setDefaultGradient)
+button.addEventListener("click", setDefaultGradient);
 
 color1.addEventListener("input", setGradient);
 
